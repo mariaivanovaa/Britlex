@@ -1,1 +1,20 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
+ body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    }
+ 
+.inner-container {
+    width: 330px;
+    padding: 0 15px;
+    margin: 0 auto;
+} 
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
