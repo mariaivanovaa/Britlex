@@ -3,7 +3,6 @@
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
-    width: 100%;
     padding: 36px 0 29px 0;
 }
 
@@ -35,9 +34,8 @@ margin-right:186px;
  }
 
  .menu-btn {
-
+    background: transparent;
     &__svg {
-        background: transparent;
         fill: rgb(57, 81, 94);
         border-radius: 1px;
     }
