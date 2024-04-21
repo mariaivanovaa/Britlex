@@ -1,12 +1,35 @@
 <section class="contact-us">
-    <div class="inner-container">
-        <h2 class="contact-us__title">Contact Us</h2>
-        <picture></picture>
-        <p class="contact-us__text">Discover your current English level by 
-            taking our free online English test.
-            Sign up to our newsletter for learning tips
-            and free resource</p>
-        <input type="email" class="contact-us__input" required placeholder="Enter Your E-mail">
-        <button class="contact-us__btn">Subscribe</button>
-    </div>
+  <div class="inner-container">
+    <h2 class="contact-us__title">Contact Us</h2>
+    <picture>
+      <source srcset="
+                ./images/pics/contact-us/1x/boy-320@1x.png 1x,
+                ./images/pics/contact-us/2x/boy-320@2x.png 2x
+              " media="(max-width: 574px)" />
+      <source srcset="
+              ./images/pics/contact-us/1x/boy-575@1x.png 1x,
+                ./images/pics/contact-us/2x/boy-575@2x.png 2x
+              " media="(max-width: 767px)" />
+      <source srcset="
+              ./images/pics/contact-us/1x/boy-767@1x.png 1x,
+                ./images/pics/contact-us/2x/boy-767@2x.png 2x
+              " media="(max-width: 991px)" />
+      <source srcset="
+              ./images/pics/contact-us/1x/boy-992@1x.png 1x,
+                ./images/pics/contact-us/2x/boy-992@2x.png 2x
+              " media="(max-width: 1199px)" />
+      <source srcset="
+              ./images/pics/contact-us/1x/boy-1200@1x.png 1x,
+                ./images/pics/contact-us/2x/boy-1200@2x.png 2x
+              " media="(min-width: 1200px)" />
+      <img src="./images/pics/contact-us/1x/boy-320@1x.png" alt="boy" class="contact-us__img" />
+    </picture>
+    <p class="contact-us__text">Discover your current English level by
+      taking our free online English test.
+      Sign up to our newsletter for learning tips
+      and free resource</p>
+    <input type="email" class="contact-us__input" required placeholder="Enter Your E-mail">
+    <button class="contact-us__btn">Subscribe</button>
+    <div class="contact-us__line"></div>
+  </div>
 </section>

@@ -6,37 +6,50 @@
     padding: 36px 0 29px 0;
 }
 
+.nav {
+    @media screen and (max-width:991px) {
+        display: none;
+    }
+}
+
 .nav-list {
-    @media screen and (max-width:991px){
+    @media screen and (max-width:991px) {
         display: none;
     }
 }
 
 .header-btn {
-    @media screen and (max-width:991px){
+    @media screen and (max-width:991px) {
         display: none;
     }
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+
 }
 
 .logo {
     width: 71px;
     height: 36px;
     font-family: "Poppins";
-font-size: 24px;
-font-weight: 400;
-line-height: 36px;
-letter-spacing: 0%;
-color: black;
-margin-right:186px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0%;
+    color: black;
+
     &__lex {
         color: rgb(147, 147, 147);
     }
- }
+}
 
- .menu-btn {
+.menu-btn {
     background: transparent;
+
     &__svg {
         fill: rgb(57, 81, 94);
         border-radius: 1px;
     }
- }
+}
